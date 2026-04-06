@@ -1,0 +1,8 @@
+# UDP目标配置（使用你的Windows IP）
+windows_ip: "172.23.48.1"
+windows_port: 8890
+send_rate: 2
+
+# 数据存储
+save_to_file: true
+log_file: "/home/amov/uav_data_log.csv"

@@ -1,0 +1,5 @@
+<launch>
+    <node name="uav_state_sender" pkg="uav_data_sender" type="uav_state_sender" output="screen">
+        <rosparam command="load" file="$(find uav_data_sender)/config/sender_config.yaml"/>
+    </node>
+</launch>
